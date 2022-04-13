@@ -42,6 +42,7 @@ see the hello world example
 
 Run application with Docker
 ===============
+::
   $ sudo docker build -t django-helloworld .
   $ sudo docker run -dp 8000:8000 django-helloworld
 
