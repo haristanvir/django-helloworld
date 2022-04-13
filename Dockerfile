@@ -1,4 +1,4 @@
-FROM python: 3.8
+FROM python:3.8
 COPY . .
 RUN pip install -r requirements.txt
 RUN opentelemetry-bootstrap --action=install
