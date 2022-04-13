@@ -1,0 +1,1 @@
+opentelemetry-instrument python manage.py runserver --noreload
